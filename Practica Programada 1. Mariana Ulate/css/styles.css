@@ -1,0 +1,85 @@
+.header {
+    background-color: #68946c;
+    padding: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #333;
+    font-size: 35px;
+    margin: 0;
+}
+
+.fa.fas.fa-hospital {
+    color: blueviolet;
+}
+
+.center-link {
+    text-align: center;
+    position: absolute;
+    top: 460px;
+    left: 68%;
+}
+
+h4 {
+    padding-top: 25px;
+    padding-left: 10;
+    padding-bottom: 20px;
+    color: #59679d;
+}
+
+h5 {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.highlight {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+}
+
+.justified-text {
+    text-align: justify;
+    flex: 20;
+    margin-left: 10px;
+}
+
+.bordered {
+    border: 20px solid #b7b3a1;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.content img {
+    max-width: 50%;
+    height: auto;
+    flex: 1;
+}
+
+.card {
+    box-shadow: 0 4px 15px 5px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border-radius: 20px; 
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px 10px rgba(0,0,0,0.4);
+}
+
+.card-body {
+    padding: 2px 16px;
+}
+
+footer {
+    background-color: #68946c;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
